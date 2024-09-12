@@ -1,0 +1,19 @@
+server:
+  port: 9999
+  error:
+    include-message: always
+    include-binding-errors: always
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/quizhorniw/online-store-config-server
+          timeout: 30000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
