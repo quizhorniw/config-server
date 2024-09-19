@@ -9,7 +9,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/quizhorniw/online-store-config-server
+          uri: https://github.com/quizhorniw/spring-cloud-configuration
           timeout: 30000
 
 management:
